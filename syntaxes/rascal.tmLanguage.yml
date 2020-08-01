@@ -1,0 +1,19 @@
+$schema: 'https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json'
+name: Rascal
+patterns:
+  - include: '#keywords'
+  - include: '#strings'
+repository:
+  keywords:
+    patterns:
+      - name: keyword.control.rascal
+        match: \b(if|while|for|return)\b
+  strings:
+    name: string.quoted.double.rascal
+    begin: '"'
+    end: '"'
+    patterns:
+      - name: constant.character.escape.rascal
+        match: \\.
+scopeName: source.rascal
+
