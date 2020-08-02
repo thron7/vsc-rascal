@@ -1,6 +1,6 @@
 # rascal-basic README
 
-VSCode extension for the Rascal metaprogramming language.
+VSCode extension for the [Rascal metaprogramming language](https://www.rascal-mpl.org/).
 
 ## Features
 
