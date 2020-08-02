@@ -1,7 +1,8 @@
-information_for_contributors:
+about:
   - >-
     Started from VSC Java syntax
-    https://github.com/microsoft/vscode/blob/master/extensions/java/syntaxes/java.tmLanguage.json
+    https://github.com/microsoft/vscode/blob/master/extensions/java/syntaxes/java.tmLanguage.json,
+    MIT license (c) Microsoft
   - >-
     which in turn was based on 
     https://github.com/atom/language-java/blob/master/grammars/java.cson
